@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Евгений Данилов - SMM и Reels</title>
+<meta name="description" content="Вырастил медиа &quot;Культура.Стамбул&quot; с нуля без бюджета: 17,9 млн просмотров Reels, 6 роликов-миллионников, 25+ ивентов.">
+<meta property="og:title" content="Евгений Данилов - SMM и Reels">
+<meta property="og:description" content="17,9 млн просмотров Reels без бюджета. 6 роликов-миллионников. 25+ ивентов.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:url" content="https://dan1luv.github.io/">
+<meta property="og:image" content="https://dan1luv.github.io/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0e0e10">
+<link rel="canonical" href="https://dan1luv.github.io/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23e4252b'/%3E%3Ctext x='32' y='45' font-family='Arial Black,Arial,sans-serif' font-weight='900' font-size='36' fill='%23fff' text-anchor='middle'%3E%D0%95%D0%94%3C/text%3E%3C/svg%3E">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#ffffff; --ink:#111113; --muted:#5c5c63; --line:#e6e6ea;
+  --night:#0e0e10; --on-night:#ffffff; --on-night-2:#c7c7cc;
+  --red:#e4252b; --red-hover:#c81d22; --red-on-night:#ff453a;
+  --r:28px; --maxw:1160px;
+  --display:"Unbounded", "Montserrat", system-ui, sans-serif;
+  --body:"Montserrat", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);font-size:18px;line-height:1.6;color:var(--ink);background:var(--paper);-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+.eyebrow{font-weight:700;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.night .eyebrow{color:var(--on-night-2)}
+h1,h2,h3{font-family:var(--display);font-weight:700;letter-spacing:-.02em;line-height:1.05}
+h2{font-size:clamp(32px,5vw,56px)}
+.lead{font-size:20px;color:var(--muted);max-width:620px}
+.night{background:var(--night);color:var(--on-night)}
+.night .lead{color:var(--on-night-2)}
+.btn{display:inline-flex;align-items:center;gap:10px;min-height:52px;padding:0 26px;border-radius:999px;font-weight:700;font-size:16px;text-decoration:none;transition:background .2s,transform .2s,border-color .2s}
+.btn-red{background:var(--red);color:#fff}
+.btn-red:hover{background:var(--red-hover);transform:translateY(-2px)}
+.btn-ghost{border:2px solid currentColor}
+.btn-ghost:hover{transform:translateY(-2px)}
+.btn:focus-visible,.reel:focus-visible,.chip:focus-visible{outline:3px solid var(--red-on-night);outline-offset:4px}
+
+.bar{position:fixed;inset:0 0 auto 0;z-index:20;transition:background .3s,box-shadow .3s}
+.bar .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+.bar .name:focus-visible{outline:3px solid var(--red-on-night);outline-offset:4px;border-radius:6px}
+.bar .name{font-family:var(--display);font-weight:700;font-size:16px;color:#fff;text-decoration:none;transition:color .3s}
+.bar .btn{min-height:42px;padding:0 20px;font-size:14px;gap:0}
+.bar.dim{background:rgba(14,14,16,.72);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+.bar.solid{background:rgba(255,255,255,.92);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:0 1px 0 var(--line)}
+.bar.solid .name{color:var(--ink)}
+
+.hero{min-height:100vh;min-height:100svh;display:flex;align-items:center;padding:104px 0 64px;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:url(img/party.jpg) center/cover;opacity:.18;filter:grayscale(1) contrast(1.1)}
+.hero::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 70% 40%,rgba(228,37,43,.28),transparent 60%),linear-gradient(180deg,rgba(14,14,16,.2),var(--night) 92%)}
+.hero .wrap{position:relative;z-index:1;display:grid;grid-template-columns:1.25fr .75fr;gap:56px;align-items:center}
+.hero h1{font-size:clamp(38px,min(5.6vw,8.2vh),80px);margin:16px 0 20px}
+.hero h1 em{font-style:normal;color:var(--red-on-night)}
+.hero .lead{font-size:20px;max-width:560px}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px}
+.hero .ctas .btn-ghost{color:#fff}
+.hero-photo{position:relative;justify-self:end;width:min(100%,380px)}
+.hero-photo img{border-radius:var(--r);aspect-ratio:3/4;object-fit:cover;object-position:50% 15%;width:100%}
+.hero-photo .tag{position:absolute;left:-28px;bottom:36px;background:var(--paper);color:var(--ink);border-radius:20px;padding:14px 18px;box-shadow:0 20px 40px rgba(0,0,0,.35);font-weight:600;font-size:15px;line-height:1.3}
+.hero-photo .tag b{display:block;font-family:var(--display);font-size:26px;color:var(--red)}
+
+.stats{border-bottom:1px solid var(--line)}
+.stats .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.stat{padding:44px 24px 40px 0}
+.stat+.stat{padding-left:28px;border-left:1px solid var(--line)}
+.stat b{display:block;font-family:var(--display);font-weight:900;font-size:clamp(34px,4.4vw,56px);letter-spacing:-.03em;line-height:1}
+.stat span{display:block;margin-top:10px;font-size:15px;color:var(--muted);line-height:1.4}
+
+.reels{padding:120px 0}
+.reels .head{display:flex;justify-content:space-between;align-items:flex-end;gap:40px;margin-bottom:56px}
+.reels .head .lead{max-width:440px}
+.wall{align-items:start;display:grid;grid-template-columns:repeat(6,1fr);gap:20px}
+.reel{position:relative;display:block;text-decoration:none;color:#fff;border-radius:30px;padding:8px;background:#000;box-shadow:0 0 0 1px #2a2a2e,0 24px 50px -20px rgba(0,0,0,.45);transition:transform .35s cubic-bezier(.2,.8,.2,1)}
+.wall .reel:nth-child(even){margin-top:56px}
+.reel::before{content:"";position:absolute;top:14px;left:50%;transform:translateX(-50%);width:34%;height:14px;border-radius:999px;background:#000;z-index:2}
+.reel .screen{position:relative;border-radius:23px;overflow:hidden;aspect-ratio:9/16}
+.reel img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.reel .views{position:absolute;left:10px;right:10px;bottom:12px;display:flex;align-items:center;gap:8px;font-weight:700;font-size:15px;text-shadow:0 1px 8px rgba(0,0,0,.6)}
+.reel .views::before{content:"";width:0;height:0;border-left:11px solid #fff;border-top:7px solid transparent;border-bottom:7px solid transparent}
+.reel .views b{font-family:var(--display)}
+.reel:hover{transform:translateY(-10px) rotate(-1deg)}
+.reel:hover img{transform:scale(1.06)}
+.reels .note{margin-top:48px;color:var(--muted);font-size:16px;max-width:760px}
+.reels .note b{color:var(--ink)}
+
+.story{padding:40px 0 120px}
+.story .wrap{display:grid;grid-template-columns:.7fr 1.3fr;gap:64px}
+.story p{max-width:640px}
+.story p+p{margin-top:18px}
+.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.chip{display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border:1px solid var(--line);border-radius:999px;font-size:14px;font-weight:600;text-decoration:none;transition:border-color .2s}
+.chip:hover{border-color:var(--ink)}
+
+.case{padding:120px 0}
+.case .wrap{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center}
+.quote{font-family:var(--display);font-weight:700;font-size:clamp(28px,3.6vw,44px);line-height:1.15;letter-spacing:-.02em;margin-top:16px}
+.quote mark{background:none;color:var(--red)}
+.case p:not(.quote):not(.eyebrow){margin-top:22px;color:var(--muted)}
+.case p b{color:var(--ink)}
+.case h2{margin-top:16px}
+.phone-lg{justify-self:center;width:min(100%,300px)}
+.kpis{display:flex;gap:32px;margin-top:32px;flex-wrap:wrap}
+.kpis div b{display:block;font-family:var(--display);font-size:34px;color:var(--red);line-height:1;white-space:nowrap}
+.kpis div span{font-size:14px;color:var(--muted)}
+.hook{display:inline-block;margin-top:28px;background:var(--ink);color:#fff;border-radius:20px 20px 20px 6px;padding:14px 20px;font-weight:600}
+.hook b{color:var(--red-on-night)}
+.trend{background:#f4f4f6}
+.trend .wrap{grid-template-columns:.8fr 1.2fr}
+.trend .phone-lg{order:-1;width:min(100%,280px)}
+.trend .btn,.case-btn{margin-top:28px}
+
+.events{padding:120px 0}
+.events .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:72px;align-items:center}
+.events h2{margin:16px 0 24px}
+.events p{color:var(--on-night-2);max-width:560px}
+.events p+p{margin-top:16px}
+.events .big{display:flex;flex-wrap:wrap;gap:24px 40px;margin-top:36px}
+.events .big b{display:block;white-space:nowrap;font-family:var(--display);font-size:clamp(38px,6vw,48px);color:var(--red-on-night);line-height:1}
+.events .big span{color:var(--on-night-2);font-size:15px}
+.events figure img{border-radius:var(--r);aspect-ratio:4/5;object-fit:cover;width:100%}
+
+.skills{padding:120px 0}
+.skills h2{margin-top:16px}
+.skills ul{list-style:none;display:flex;flex-wrap:wrap;gap:12px;margin-top:36px}
+.skills li{border:1px solid var(--line);border-radius:999px;padding:12px 20px;font-weight:600;font-size:16px}
+.contact{padding:120px 0 64px;text-align:center}
+.contact h2{font-size:clamp(36px,6vw,76px);max-width:900px;margin:18px auto 0}
+.contact .lead{margin:22px auto 0}
+.contact .ctas{display:flex;justify-content:center;flex-wrap:wrap;gap:14px;margin-top:40px}
+.contact .ctas .btn-ghost{color:#fff}
+.contact small{display:block;margin-top:72px;color:#9a9aa1;font-size:14px}
+.contact small a{text-decoration:none}
+
+.js .rv{opacity:0;transform:translateY(28px);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.8,.2,1)}
+.js .rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .js .rv{opacity:1;transform:none;transition:none}
+  .reel,.reel img,.btn{transition:none}
+}
+@media (max-width:980px){
+  .wall{grid-template-columns:repeat(3,1fr)}
+  .wall .reel:nth-child(even){margin-top:0}
+  .wall .reel:nth-child(3n+2){margin-top:40px}
+  .story .wrap,.case .wrap,.events .wrap{grid-template-columns:1fr;gap:40px}
+  .reels .head{flex-direction:column;align-items:flex-start}
+  .trend .phone-lg{order:0}
+}
+@media (max-width:720px){
+  body{font-size:17px}
+  .hero .wrap{grid-template-columns:1fr;gap:40px}
+  .hero-photo{justify-self:start;width:min(80%,320px)}
+  .hero-photo .tag{left:auto;right:-16px}
+  .stats .wrap{grid-template-columns:1fr 1fr}
+  .stat{padding:28px 12px 28px 0}
+  .stat:nth-child(3){padding-left:0;border-left:0}
+  .stat:nth-child(n+3){border-top:1px solid var(--line)}
+  .wall{grid-template-columns:repeat(2,1fr);gap:14px}
+  .wall .reel:nth-child(3n+2){margin-top:0}
+  .wall .reel:nth-child(even){margin-top:36px}
+  .reels,.case,.events,.skills{padding:80px 0}
+  .bar .name{font-size:14px}
+  .bar .btn{padding:0 16px;white-space:nowrap}
+  .bar .name{white-space:nowrap}
+  .bar .long{display:none}
+}
+</style>
+</head>
+<body>
+
+<header class="bar" id="bar">
+  <div class="wrap">
+    <a class="name" href="#top">Евгений Данилов</a>
+    <a class="btn btn-red" href="https://t.me/dan1luv" target="_blank" rel="noopener"><span class="long">Написать в&nbsp;</span>Telegram</a>
+  </div>
+</header>
+
+<section class="hero night" id="top">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">SMM · Reels · Ивенты</p>
+      <h1>Вырастил медиа до <em>17,9&nbsp;млн</em> просмотров. Без бюджета.</h1>
+      <p class="lead">Меня зовут Евгений. В 2022 я запустил "Культуру.Стамбул" - медиа про город и его ночную жизнь, и делал все сам: идеи, сценарии, съемку, монтаж, визуал, рекламу и ивенты. Сейчас живу в Москве и ищу работу в&nbsp;SMM.</p>
+      <div class="ctas">
+        <a class="btn btn-red" href="https://t.me/dan1luv" target="_blank" rel="noopener">Написать в Telegram</a>
+        <a class="btn btn-ghost" href="https://drive.google.com/file/d/1KiIh1RaxD5HJk7oYUKaZbSrT0aZKg1KQ/view" target="_blank" rel="noopener">Резюме PDF</a>
+      </div>
+    </div>
+    <div class="hero-photo rv">
+      <img src="img/portrait.jpg" alt="Евгений Данилов" width="724" height="1086" fetchpriority="high">
+      <div class="tag"><b>6</b>роликов больше 1 млн</div>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="wrap">
+    <div class="stat rv"><b>17,9 млн</b><span>просмотров Reels на 98 роликах</span></div>
+    <div class="stat rv"><b>13к</b><span>подписчиков в Instagram, весь рост органический</span></div>
+    <div class="stat rv"><b>18,6к</b><span>медиана просмотров - больше, чем подписчиков</span></div>
+    <div class="stat rv"><b>25+</b><span>офлайн-ивентов, от 10 до 500 гостей</span></div>
+  </div>
+</section>
+
+<section class="reels" id="reels">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="eyebrow">Reels</p>
+        <h2 class="rv">6 роликов-<br>миллионников</h2>
+      </div>
+      <p class="lead rv">При 13к подписчиков ролики уходили далеко за пределы аудитории: я делал их про то, что понятно каждому, кто был в Стамбуле.</p>
+    </div>
+    <div class="wall">
+      <a class="reel rv" href="https://www.instagram.com/reel/CxnhL2Et0W3/" target="_blank" rel="noopener"><div class="screen"><img src="img/reel-gorki.jpg" alt="Ролик Горки в Стамбуле" loading="lazy" width="420" height="747"><div class="views"><b>2,5 млн</b></div></div></a>
+      <a class="reel rv" href="https://www.instagram.com/reel/C-96shXiM6N/" target="_blank" rel="noopener"><div class="screen"><img src="img/reel-oldays.jpg" alt="Ролик I love Istanbul" loading="lazy" width="420" height="747"><div class="views"><b>2,4 млн</b></div></div></a>
+      <a class="reel rv" href="https://www.instagram.com/reel/C-w0KgyCMvy/" target="_blank" rel="noopener"><div class="screen"><img src="img/reel-lira.jpg" alt="Ролик Turkish Lira Currency" loading="lazy" width="420" height="747"><div class="views"><b>2,2 млн</b></div></div></a>
+      <a class="reel rv" href="https://www.instagram.com/reel/CujcWejNJ4q/" target="_blank" rel="noopener"><div class="screen"><img src="img/reel-shtany.jpg" alt="Ролик ПОВ: как в Турции выбирают штаны" loading="lazy" width="420" height="747"><div class="views"><b>2,2 млн</b></div></div></a>
+      <a class="reel rv" href="https://www.instagram.com/reel/C-U3ekOClpS/" target="_blank" rel="noopener"><div class="screen"><img src="img/reel-prices.jpg" alt="Ролик Prices in Istanbul" loading="lazy" width="420" height="747"><div class="views"><b>2 млн</b></div></div></a>
+      <a class="reel rv" href="https://www.instagram.com/reel/CwxdGH5tsgr/" target="_blank" rel="noopener"><div class="screen"><img src="img/reel-turok.jpg" alt="Ролик Каждый уважающий себя турок" loading="lazy" width="420" height="747"><div class="views"><b>1,5 млн</b></div></div></a>
+    </div>
+    <p class="note rv"><b>"Горки в Стамбуле" - 2,5 млн.</b> Тогда сильно вирусился звук, и я понимал, что идея скорее всего залетит: все, кто бывал в Стамбуле, знают, как там сложно передвигаться из-за холмов. Лучшие ролики собрали по 118-122к лайков и до 6,5к сохранений.</p>
+  </div>
+</section>
+
+<section class="story">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">О проекте</p>
+      <h2 class="rv">Как появилась "Культура"</h2>
+    </div>
+    <div class="rv">
+      <p>В 2022 я переехал в Стамбул, работы не было, и мне просто было скучно. Я люблю электронную музыку и клубную индустрию - так появилась идея сделать медиа про город и его ночную жизнь.</p>
+      <p>На начальных этапах мне помогали, но в какой-то момент я остался один и делал все сам. Стамбульский проект сейчас на паузе, так как я живу в Москве, а в августе 2026 я запустил "Культуру" здесь.</p>
+      <div class="links">
+        <a class="chip" href="https://www.instagram.com/istanbul.culture/" target="_blank" rel="noopener">Instagram Стамбул</a>
+        <a class="chip" href="https://t.me/istanbulculture" target="_blank" rel="noopener">Telegram Стамбул</a>
+        <a class="chip" href="https://www.instagram.com/culture.moscow/" target="_blank" rel="noopener">Instagram Москва</a>
+        <a class="chip" href="https://t.me/msccult" target="_blank" rel="noopener">Telegram Москва</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="case trend">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Кейс · Тренд</p>
+      <p class="quote rv">Тренд, где Тиньков что-то оценивает фразами из интервью Дудю, был <mark>запущен моим роликом</mark> - там он оценивает районы Стамбула.</p>
+      <p class="rv">Сам ролик, к сожалению, набрал немного, около 100к. Но формат пошел дальше.</p>
+      <a class="btn btn-ghost rv" href="https://www.instagram.com/reel/CuFLv8pRCA3/" target="_blank" rel="noopener">Смотреть ролик</a>
+    </div>
+    <div class="phone-lg rv">
+      <a class="reel" href="https://www.instagram.com/reel/CuFLv8pRCA3/" target="_blank" rel="noopener"><div class="screen"><img src="img/reel-tinkov.jpg" alt="Ролик: Тиньков оценивает районы Стамбула" loading="lazy" width="444" height="747"></div></a>
+    </div>
+  </div>
+</section>
+
+<section class="case">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Кейс · Реклама</p>
+      <h2 class="rv">Рекламу смотрели как обычный&nbsp;контент</h2>
+      <p class="rv">Ко мне обратился друг, попросил прорекламировать его обменник Teleport. Ролик залетел за счет <b>2 вещей</b>: хука и образа девушки с вызывающей подачей.</p>
+      <div class="hook rv">На приветствие девушки я отвечаю просто <b>"Да"</b></div>
+      <p class="rv">Этот момент многие отмечали в комментариях.</p>
+      <div class="kpis rv">
+        <div><b>302к</b><span>просмотров</span></div>
+        <div><b>2,2к</b><span>сохранений</span></div>
+        <div><b>×16</b><span>к обычному ролику</span></div>
+      </div>
+      <a class="btn btn-ghost rv case-btn" href="https://www.instagram.com/reel/C-nkB7XCLq_/" target="_blank" rel="noopener">Смотреть ролик</a>
+    </div>
+    <div class="phone-lg rv">
+      <a class="reel" href="https://www.instagram.com/reel/C-nkB7XCLq_/" target="_blank" rel="noopener"><div class="screen"><img src="img/teleport.jpg" alt="Рекламный ролик Teleport" loading="lazy" width="420" height="747"></div></a>
+    </div>
+  </div>
+</section>
+
+<section class="events night">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Ивенты</p>
+      <h2 class="rv">Вечеринки на&nbsp;лодках по&nbsp;Босфору</h2>
+      <p class="rv">Началось все достаточно просто: я хотел отметить годовщину проекта и надеялся хотя бы окупиться. Потом понял, что ивенты - хороший способ монетизировать медиа.</p>
+      <p class="rv">Лодки появились из коллаборации с конкурентом: я увидел, что без комиссии клубу с вечеринок можно зарабатывать гораздо больше. Самое сложное - привести аудиторию офлайн и заставить купить билет.</p>
+      <div class="big rv">
+        <div><b>25+</b><span>ивентов</span></div>
+        <div><b>до 500</b><span>гостей на одном</span></div>
+      </div>
+    </div>
+    <figure class="rv"><img src="img/events.jpg" alt="Гости на вечеринке Культуры" loading="lazy" width="665" height="1182"></figure>
+  </div>
+</section>
+
+<section class="skills">
+  <div class="wrap">
+    <p class="eyebrow">Навыки</p>
+    <h2 class="rv">Что я делаю руками</h2>
+    <ul class="rv">
+      <li>Стратегия и контент-план</li>
+      <li>Reels: идеи, сценарии, съемка, монтаж в CapCut</li>
+      <li>Визуал в Figma (2+ года) и Photoshop</li>
+      <li>Тексты живым языком</li>
+      <li>Реклама и работа с партнерами</li>
+      <li>Ивенты: от идеи до продажи билетов</li>
+      <li>Нейросети для рутины: Claude, ChatGPT, Gemini, NanoBanana</li>
+    </ul>
+  </div>
+</section>
+
+<section class="contact night">
+  <div class="wrap">
+    <p class="eyebrow">Контакты</p>
+    <h2 class="rv">Ищу работу в&nbsp;SMM или ивент-менеджменте</h2>
+    <p class="lead rv">Москва или удаленно. Пишите в Telegram.</p>
+    <div class="ctas rv">
+      <a class="btn btn-red" href="https://t.me/dan1luv" target="_blank" rel="noopener">Telegram @dan1luv</a>
+      <a class="btn btn-ghost" href="mailto:dan1luv3d@gmail.com">dan1luv3d@gmail.com</a>
+    </div>
+    <small><a href="tel:+79267546321">+7 926 754-63-21</a> · <a href="https://drive.google.com/file/d/1KiIh1RaxD5HJk7oYUKaZbSrT0aZKg1KQ/view" target="_blank" rel="noopener">Резюме PDF</a></small>
+  </div>
+</section>
+
+<script>
+(function(){
+  var bar=document.getElementById('bar'), hero=document.getElementById('top');
+  function onScroll(){ var solid=window.scrollY > hero.offsetHeight - 80; bar.classList.toggle('solid', solid); bar.classList.toggle('dim', !solid && window.scrollY > 10); }
+  window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+  var els=document.querySelectorAll('.rv');
+  if(!('IntersectionObserver' in window)){ els.forEach(function(e){e.classList.add('in')}); return; }
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); } });
+  },{threshold:.12, rootMargin:'0px 0px -40px 0px'});
+  els.forEach(function(e,i){ e.style.transitionDelay=(i%6)*60+'ms'; io.observe(e); });
+})();
+</script>
+</body>
+</html>
